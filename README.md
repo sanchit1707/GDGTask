@@ -84,6 +84,41 @@ Historical market data is used to predict future closing prices without training
 - Supports probabilistic forecasts (median & quantiles)
 - Framework: PyTorch
 
+## prediction
+- Forecasts future time steps based on historical context
+- Uses median predictions for evaluation
+- Generates uncertainty-aware forecasts
+
+## visualization 
+- Actual vs Predicted closing prices
+- Forecast horizon comparison
+- Prediction confidence bands (quantiles)
+
+  <img width="864" height="391" alt="image" src="https://github.com/user-attachments/assets/ed47185f-bbbd-4dcc-90f8-1d5f4a78c3b6" />
+
+## Results & Metrics
+
+Model performance is evaluated on the test set using regression metrics:
+
+test rmse:7.8939
+
+## how to run 
+
+1. **Clone the repository**
+```bash
+git clone <https://github.com/sanchit1707/GDGTask.git>
+cd <>
+```
+2.**Install dependencies**
+```bash
+pip install chronos-forecasting yfinance torch pandas numpy matplotlib scikit-learn
+```
+
+
+
+  
+
+
 
 
 
