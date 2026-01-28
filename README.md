@@ -36,8 +36,8 @@ Comparison of actual vs predicted closing prices on the test set, including the 
 
 1. **Clone the repository**
 ```bash
-git clone <repo-url>
-cd <repo-folder>
+git clone <https://github.com/sanchit1707/GDGTask.git>
+cd <using lstm.ipynb>
 ```
 2.**Install dependencies**
 ```bash
