@@ -57,12 +57,6 @@ jupyter notebook
 - Evaluation is limited to **RMSE**; additional metrics can provide better performance insights.
 
 
-### Corrections
-- The model currently uses only the **closing price**; future versions can validate results using additional OHLC features.
-- Hyperparameters such as **window size (29 days)** and **LSTM hidden units** were selected empirically and can be further tuned.
-- Evaluation is limited to **RMSE**; additional metrics can provide better performance insights.
-
-
 ### disadvantages of LSTM
 - the model is good with prediction of the overall trend of the closing price but it doesnot incorporate noise.
 - it also is not good when used on the difference between the prices of the consecutive days.
