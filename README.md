@@ -56,7 +56,6 @@ jupyter notebook
 - Hyperparameters such as **window size (29 days)** and **LSTM hidden units** were selected empirically and can be further tuned.
 - Evaluation is limited to **RMSE**; additional metrics can provide better performance insights.
 
-### ## Corrections & Further Improvements
 
 ### Corrections
 - The model currently uses only the **closing price**; future versions can validate results using additional OHLC features.
