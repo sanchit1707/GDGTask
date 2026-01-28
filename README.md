@@ -67,6 +67,25 @@ the time series approaches like ARIMA and SARIMA models gave very less accuracy 
 
 ## Approach 2(Chronos-2 model)
 
+### Time Series Forecasting using Chronos2
+
+## Overview
+This project performs **time series forecasting on stock price data** using **Chronos2**, a pretrained transformer-based model for probabilistic forecasting.  
+Historical market data is used to predict future closing prices without training a custom model (zero-shot forecasting).
+
+## Data
+- **Source:** Yahoo Finance (`yfinance`)
+- **Asset:** Stock market data (OHLC)
+- **Target Variable:** `Close` price
+- **Frequency:** Daily
+
+## Model 
+- Chronos2 (Pretrained Transformer)
+- Supports probabilistic forecasts (median & quantiles)
+- Framework: PyTorch
+
+
+
 
 
 
