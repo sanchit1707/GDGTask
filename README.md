@@ -114,6 +114,16 @@ cd <>
 pip install chronos-forecasting yfinance torch pandas numpy matplotlib scikit-learn
 ```
 
+## Correction and further improvements
+
+1. transformers are not defaultly made for time series
+2. with transformers overfit badly with less data
+3. No explicit time-series inductive bias
+4. Limited customization / fine-tuning
+
+
+# TASK 2 The Analytical Chatbot
+
 
 
   
